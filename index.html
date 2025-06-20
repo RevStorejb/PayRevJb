@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Payment Web</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: url('https://files.catbox.moe/jnl4tf.jpg') no-repeat center center fixed;
+      background-size: cover;
+      font-family: Arial, sans-serif;
+      color: white;
+      text-align: center;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.6);
+      min-height: 100vh;
+      padding: 30px 20px;
+    }
+
+    h1 {
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    .payment-info {
+      background-color: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      margin: 15px auto;
+      border-radius: 15px;
+      max-width: 400px;
+    }
+
+    .payment-info h2 {
+      margin-bottom: 10px;
+      font-size: 1.2em;
+      color: #00ffcc;
+    }
+
+    .payment-info p {
+      font-size: 1.1em;
+      margin: 5px 0;
+    }
+
+    .qris img {
+      width: 250px;
+      margin-top: 15px;
+      border: 5px solid white;
+      border-radius: 10px;
+    }
+
+    @media (max-width: 480px) {
+      .qris img {
+        width: 90%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>PEMBAYARAN</h1>
+
+    <div class="payment-info">
+      <h2>DANA</h2>
+      <p>081220568534</p>
+    </div>
+
+    <div class="payment-info">
+      <h2>GO-PAY</h2>
+      <p>081324982853</p>
+    </div>
+
+    <div class="payment-info qris">
+      <h2>QRIS</h2>
+      <img src="https://files.catbox.moe/0ro09v.jpg" alt="QRIS">
+    </div>
+  </div>
+</body>
+</html>
